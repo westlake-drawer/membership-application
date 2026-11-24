@@ -1,0 +1,42 @@
+name: 申请加入组织 / Organization Membership Request
+description: 填写 GitHub 账号、姓名和学校邮箱即可申请。Apply with your GitHub username, name, and school email.
+title: "[成员申请] <请替换为你的真实姓名>"
+labels: ["membership-request", "pending-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 欢迎申请加入笔记贡献组织 / Welcome to the Notes Contribution Organization
+        
+        只需填写 GitHub 账号、姓名和学校邮箱，管理员将尽快审核。
+        注意：本 Issue 及填写的信息会公开可见。请勿填写电话、密码、验证码等额外个人信息。
+        
+        Provide only your GitHub username, name, and school email. Maintainers will review your request.
+        This issue and your submitted information will be public. Do not include phone numbers, passwords, verification codes, or other personal information.
+
+  - type: input
+    id: github
+    attributes:
+      label: GitHub 账号 / GitHub Username
+      description: 请填写用于接收组织邀请的 GitHub 用户名
+      placeholder: your-github-username
+    validations:
+      required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: 真实姓名 / Full Name
+      description: 请填写你的真实姓名
+      placeholder: 例如： 张三
+    validations:
+      required: true
+
+  - type: input
+    id: email
+    attributes:
+      label: 学校邮箱 / School Email
+      description: 请输入你的学校邮箱（仅限 `@westlake.edu.cn` 域名）
+      placeholder: your.name@westlake.edu.cn
+    validations:
+      required: true
