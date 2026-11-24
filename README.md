@@ -1,8 +1,8 @@
 # 成员申请通道 / Membership Request Channel
 
-本仓库用于接收 Westlake Noter 笔记贡献组织的成员申请。欢迎对笔记创作、知识整理、课程资料维护感兴趣的同学加入我们。
+本仓库用于接收 Westlake Drawer 笔记贡献组织的成员申请。欢迎对笔记创作、知识整理、课程资料维护感兴趣的同学加入我们。
 
-This repository receives membership requests for the Westlake Noter note contribution organization. We welcome students interested in note-taking, knowledge organization, and course material maintenance.
+This repository receives membership requests for the Westlake Drawer note contribution organization. We welcome students interested in note-taking, knowledge organization, and course material maintenance.
 
 ---
 
