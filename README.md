@@ -1,30 +1,40 @@
 # 成员申请通道 / Membership Request Channel
 
-本仓库用于接收 Westlake Drawer 笔记贡献组织的成员申请。欢迎对笔记创作、知识整理、课程资料维护感兴趣的同学加入我们。
+本仓库接收 Westlake Drawer 笔记贡献组织的加入申请。申请由学生维护者以个人身份审核，
+本组织与西湖大学没有隶属关系。
 
-This repository receives membership requests for the Westlake Drawer note contribution organization. We welcome students interested in note-taking, knowledge organization, and course material maintenance.
+This repository receives applications to join Westlake Drawer. Applications are
+reviewed by student maintainers in a personal capacity; the organization is not
+affiliated with Westlake University.
 
 ---
 
 ## 申请流程 / Application Process
 
-### 1. 提交申请 / Submit an Application
+### 1. 公开提交最小信息 / Submit minimal information publicly
 
-直接[填写成员申请 Issue](https://github.com/westlake-drawer/membership-application/issues/new?template=membership-request.yml)，提供 **GitHub 账号、姓名、学校邮箱**三项信息后提交即可。不需要填写联系电话、申请理由或额外确认声明。
+[填写申请 Issue](https://github.com/westlake-drawer/membership-application/issues/new?template=membership-request.yml)，
+**只填 GitHub 账号**。公开 issue 中不要填写姓名、学校邮箱、学号、电话或其他个人信息。
 
-Open the [membership request form](https://github.com/westlake-drawer/membership-application/issues/new?template=membership-request.yml) and submit your **GitHub username, name, and school email**. No phone number, motivation statement, or additional confirmation is required.
+[Open the application form](https://github.com/westlake-drawer/membership-application/issues/new?template=membership-request.yml)
+with **your GitHub username only**. Do not put your name, school email, student ID,
+phone number, or other personal data in a public issue.
 
-### 2. 等待审核 / Wait for Review
+### 2. 私下补充身份信息 / Send identity details privately
 
-管理员直接在本仓库的公开 Issue 中审核申请；如需补充信息，会在 Issue 中回复。申请不再自动转发到私有仓库，也不会自动删除。
+维护者会在 issue 中留下私密联系方式。姓名与学校邮箱（`@westlake.edu.cn`）
+只通过私密渠道提供，不会出现在公开页面。
 
-Maintainers review requests directly in this repository's public issues and reply there if more information is needed. Applications are no longer automatically forwarded to a private repository or deleted.
+A maintainer will reply in the issue with a private channel. Your name and school
+email (`@westlake.edu.cn`) are provided privately and never appear on a public page.
 
-### 3. 接收邀请 / Receive Invitation
+### 3. 审核与邀请 / Review and invitation
 
-审核通过后，你将收到来自 GitHub 的组织加入邀请邮件。请及时查收并点击 **Accept** 接受邀请。
+审核通过后，你会收到 GitHub 组织邀请邮件，点击 **Accept** 即可加入。
+未通过的申请会说明原因，相关记录按隐私政策处理。
 
-Once approved, you will receive an organization invitation email from GitHub. Please check your inbox and click **Accept** to join.
+On approval you receive a GitHub organization invitation by email. Rejected
+applications receive a reason; records are handled per the privacy policy.
 
 ---
 
@@ -32,28 +42,32 @@ Once approved, you will receive an organization invitation email from GitHub. Pl
 
 | 项目 / Item | 说明 / Description |
 | :--- | :--- |
-| **GitHub 账号 / GitHub Username** | 用于接收组织邀请的用户名 / Username that will receive the organization invitation |
-| **真实姓名 / Full Name** | 请填写你的真实姓名 / Please provide your real name |
-| **学校邮箱 / School Email** | 仅限 `@westlake.edu.cn` 邮箱 / `@westlake.edu.cn` email only |
+| GitHub 账号 / GitHub username | 用于接收邀请 / Used for the invitation |
+| 在校身份 / Current student status | 私下核实，仅限西湖大学 / Verified privately, Westlake University only |
+| 学校邮箱 / School email | 仅限 `@westlake.edu.cn`，私下提交 / `@westlake.edu.cn` only, sent privately |
 
 ---
 
 ## 隐私说明 / Privacy Notice
 
-**本仓库为公开仓库，申请 Issue 中的 GitHub 账号、姓名和学校邮箱会对所有人可见。** 提交前请确认你愿意公开这些信息。请勿提交电话、密码、验证码或其他额外个人信息。关闭 Issue 不会隐藏其中的内容。
+- 公开 issue 中只应出现 GitHub 账号。姓名、邮箱等通过私密渠道提交。
+- Only your GitHub username belongs in the public issue; everything else goes through
+  the private channel.
+- 申请记录在审核结束后保存 12 个月，之后删除或匿名化。
+  Application records are kept for 12 months after review, then deleted or anonymised.
+- 你可以随时要求删除申请记录或撤回申请：在该 issue 中说明，或联系维护者。
+  You may ask to delete the record or withdraw at any time.
+- 完整说明见站点的 [隐私政策](https://westlake-drawer.github.io/legal/privacy)。
+  Full details: [privacy policy](https://westlake-drawer.github.io/legal/privacy).
 
-**This repository is public. Your GitHub username, name, and school email in the application issue will be visible to everyone.** Submit only if you are comfortable making this information public. Do not include phone numbers, passwords, verification codes, or other personal information. Closing an issue does not hide its contents.
+**注意：关闭 issue 不会删除其中已有的内容；请从一开始就不要在公开 issue 中写入个人信息。**
+
+**Closing an issue does not delete what is already in it — never put personal data in
+a public issue to begin with.**
 
 ---
 
-## 联系我们 / Contact Us
+## 联系我们 / Contact
 
-如有疑问，请联系组织管理员，或在本仓库提交不包含个人敏感信息的咨询 issue。
-
-If you have questions, contact the organization maintainers or open a non-sensitive inquiry issue in this repository.
-
----
-
-**感谢你的申请，也感谢你愿意一起建设更好的课程笔记生态。**
-
-**Thank you for your application and for helping build a better course-note ecosystem.**
+通过本仓库的 issue 联系维护者，或在组织页面找到维护者账号。
+Contact maintainers through this repository's issues or the organization page.

@@ -1,42 +1,36 @@
 name: 申请加入组织 / Organization Membership Request
-description: 填写 GitHub 账号、姓名和学校邮箱即可申请。Apply with your GitHub username, name, and school email.
-title: "[成员申请] <请替换为你的真实姓名>"
+description: 只填 GitHub 账号；姓名与学校邮箱通过私密渠道提交。Username only; other details go through a private channel.
+title: "[成员申请] <你的 GitHub 账号>"
 labels: ["membership-request", "pending-review"]
 body:
   - type: markdown
     attributes:
       value: |
-        ## 欢迎申请加入笔记贡献组织 / Welcome to the Notes Contribution Organization
-        
-        只需填写 GitHub 账号、姓名和学校邮箱，管理员将尽快审核。
-        注意：本 Issue 及填写的信息会公开可见。请勿填写电话、密码、验证码等额外个人信息。
-        
-        Provide only your GitHub username, name, and school email. Maintainers will review your request.
-        This issue and your submitted information will be public. Do not include phone numbers, passwords, verification codes, or other personal information.
+        ## 只需填写 GitHub 账号 / GitHub username only
+
+        本 issue 公开可见。请**不要**填写姓名、学校邮箱、学号、电话或其他个人信息。
+        维护者会在这里回复私密提交方式，用于核实身份。
+
+        This issue is public. Do **not** include your name, school email, student ID,
+        phone number, or other personal data. A maintainer will reply here with a
+        private channel for identity verification.
+
+        隐私说明 / Privacy: https://westlake-drawer.github.io/legal/privacy
 
   - type: input
     id: github
     attributes:
-      label: GitHub 账号 / GitHub Username
-      description: 请填写用于接收组织邀请的 GitHub 用户名
+      label: GitHub 账号 / GitHub username
+      description: 用于接收组织邀请 / Used for the organization invitation
       placeholder: your-github-username
     validations:
       required: true
 
-  - type: input
-    id: name
+  - type: textarea
+    id: note
     attributes:
-      label: 真实姓名 / Full Name
-      description: 请填写你的真实姓名
-      placeholder: 例如： 张三
+      label: 补充说明（可选，不含个人信息）/ Optional note (no personal data)
+      description: 例如感兴趣的课程方向。请勿填写任何可识别个人身份的信息。
+      placeholder: 例如：想参与数学类笔记的整理
     validations:
-      required: true
-
-  - type: input
-    id: email
-    attributes:
-      label: 学校邮箱 / School Email
-      description: 请输入你的学校邮箱（仅限 `@westlake.edu.cn` 域名）
-      placeholder: your.name@westlake.edu.cn
-    validations:
-      required: true
+      required: false
