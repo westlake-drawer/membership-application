@@ -1,27 +1,24 @@
-name: 申请加入组织 / Organization Membership Request
-description: 只填 GitHub 账号；姓名与学校邮箱通过私密渠道提交。Username only; other details go through a private channel.
-title: "[成员申请] <你的 GitHub 账号>"
+name: Organization Membership Request
+description: GitHub username only; other details go through a private channel.
+title: "[Membership] <your GitHub username>"
 labels: ["membership-request", "pending-review"]
 body:
   - type: markdown
     attributes:
       value: |
-        ## 只需填写 GitHub 账号 / GitHub username only
-
-        本 issue 公开可见。请**不要**填写姓名、学校邮箱、学号、电话或其他个人信息。
-        维护者会在这里回复私密提交方式，用于核实身份。
+        ## GitHub username only
 
         This issue is public. Do **not** include your name, school email, student ID,
         phone number, or other personal data. A maintainer will reply here with a
         private channel for identity verification.
 
-        隐私说明 / Privacy: https://westlake-drawer.github.io/legal/privacy
+        Privacy: https://westlake-drawer.github.io/legal/privacy
 
   - type: input
     id: github
     attributes:
-      label: GitHub 账号 / GitHub username
-      description: 用于接收组织邀请 / Used for the organization invitation
+      label: GitHub username
+      description: Used for the organization invitation
       placeholder: your-github-username
     validations:
       required: true
@@ -29,8 +26,8 @@ body:
   - type: textarea
     id: note
     attributes:
-      label: 补充说明（可选，不含个人信息）/ Optional note (no personal data)
-      description: 例如感兴趣的课程方向。请勿填写任何可识别个人身份的信息。
-      placeholder: 例如：想参与数学类笔记的整理
+      label: Optional note (no personal data)
+      description: For example, which subject area interests you. Do not include anything that identifies you.
+      placeholder: e.g. I would like to help maintain mathematics notes
     validations:
       required: false
